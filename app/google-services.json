@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878875307168",
+    "project_id": "pashudhan-1",
+    "storage_bucket": "pashudhan-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878875307168:android:65df07f691cb555adcadc5",
+        "android_client_info": {
+          "package_name": "com.example.pashudhan_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878875307168-jbika4f3vp74iii7omu58n1h93bumjic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK3ULFx83ImnDs_jjOAZf9zkwvneqhCWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878875307168-jbika4f3vp74iii7omu58n1h93bumjic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
