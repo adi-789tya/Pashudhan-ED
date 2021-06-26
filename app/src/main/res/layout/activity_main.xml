@@ -103,7 +103,7 @@
             android:background="@drawable/et_style"
             android:ems="10"
             android:tag="+91"
-            android:hint="+91-789XXXX293"
+            android:hint="Enter 10 digit Mobile number"
             android:inputType="phone"
             android:padding="15dp"
             app:layout_constraintBottom_toBottomOf="parent"

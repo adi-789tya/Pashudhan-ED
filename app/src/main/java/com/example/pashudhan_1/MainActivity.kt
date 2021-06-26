@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var otp4: EditText
     private lateinit var otp5: EditText
     private lateinit var otp6: EditText
+    private lateinit var country_code: String
+    private lateinit var country_code_phone_number: String
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -105,9 +108,12 @@ class MainActivity : AppCompatActivity() {
         send_button = findViewById(R.id.button)
 
         send_button.setOnClickListener {
-            Log.d("PhoneNumber: " , phone_number.text.toString())
-            storedPhonenumber = phone_number.text.toString()
-            startPhoneNumberVerification(phoneNumber = phone_number.text.toString())
+
+            country_code = "+91"
+            country_code_phone_number = country_code + phone_number.text.toString()
+            storedPhonenumber = country_code_phone_number
+            Log.d("PhoneNumber: " ,country_code_phone_number)
+            startPhoneNumberVerification(phoneNumber = country_code_phone_number)
 
         }
 
